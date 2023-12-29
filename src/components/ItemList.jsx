@@ -73,14 +73,13 @@ const ItemList = () => {
               spacing={{ base: 2, md: 4 }}
               justify="flex-end"
             >
-              <IconButton
-                icon={<i className="fas fa-edit" />}
+              <Button
                 aria-label="Edit Item"
                 onClick={() => handleEditItem(item)}
                 variant="outline"
                 colorScheme="teal"
                 size="sm"
-              />
+              >Edit</Button>
               <Button
                 colorScheme="red"
                 onClick={() => handleDeleteItem(item.id)}
