@@ -3,7 +3,6 @@ import { Box, Table, Thead, Tbody, Tr, Th, Td } from '@chakra-ui/react';
 import { useSelector } from 'react-redux';
 
 const Inventory = () => {
-  // Assuming you have a 'items' state in your Redux store
   const inventoryItems = useSelector((state) => state.items);
 
   return (
